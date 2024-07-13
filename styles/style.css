@@ -87,6 +87,59 @@ body{
 .hero-pic img{
     width: 100%;
 }
+
+/* about section  */
+.about-container{
+    background-image: url(../images/shapes/7.png);
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.about-pic{
+    width: 50%;
+    height: 100%;
+
+}
+.person-pic{
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+}
+.person-pic img{
+    width: 338px;
+    height: 536px;
+    
+}
+.about-text{
+    width: 50%;
+    height: 100%;
+    padding: 150px 165px 227px 47px;
+}
+.about-text h2{
+    color: rgb(112, 112, 112);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0%;
+    font-family: Montserrat;
+}
+.about-text p{
+    color: rgb(24, 25, 31);
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    font-size: 18px;
+}
+.contact-me-btn{
+    width: 192px;
+    height: 68px;
+    margin-top: 80px;
+}
+
+
+/* Responsive */
 @media screen and (max-width:576px) {
     .banner-container{
         flex-direction: column-reverse;
@@ -98,6 +151,9 @@ body{
         margin-left: 5px;
 
     }
+    .banner-content p{
+        margin-left: 5px;
+    }
     .grop8450-png{
         width: 400px;
     }
@@ -107,6 +163,18 @@ body{
         top: -180px;
     }
     .banner-content{
+        width: 100%;
+    }
+    .about-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .about-text{
+        text-align: center;
+        width: 100%;
+        padding: 10px ;
+    }
+    .about-pic{
         width: 100%;
     }
 }
