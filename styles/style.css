@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* primary style  */
+.primary-btn{
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+}
+.banner-container{
+    max-width: 1600px;
+    height:760px ;
+    display: flex;
+    
+}
+.banner-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-pic{
+    width: 50%;
+    height: 100%;
+}
+.banner-content h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 4rem;
+    margin-left: 50px;
+}
+.banner-content h1 span{
+    color: rgb(245, 132, 26);
+}
+.banner-content p{
+    color: rgb(130, 130, 130);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -2%;
+    font-family: Montserrat;
+    margin-left: 50px;
+}
+.order-btn{
+    width: 192px;
+    height: 68px;
+    margin-left: 50px;
+}
+.banner-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grop8450-png{
+    width: 482px;
+    height: 485px;
+    position: relative;
+    top: 320px;
+
+}
+.grop8450-png img{
+    width: 100%;
+}
+.hero-pic{
+    width: 650px;
+    position: relative;
+    top: -180px;
+    right: 23px;
+    
+    
+}
+.hero-pic img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column-reverse;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content h1{
+        margin-left: 5px;
+
+    }
+    .grop8450-png{
+        width: 400px;
+    }
+    .hero-pic{
+        width:550px;
+        right: 0px;
+        top: -180px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+}
